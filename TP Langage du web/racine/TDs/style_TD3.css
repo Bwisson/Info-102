@@ -1,0 +1,104 @@
+#flux p{display : inline;}
+#flux img{display : block;}
+body{background-color : lightgray;}
+
+#boite div{
+    background-color: antiquewhite;
+    border: solid black;
+    padding: 1em;
+    margin-left : 2em;
+    height: 100px;
+}
+
+#boite span{
+    background-color: aliceblue;
+    border : solid black;
+    padding: 1em;
+    margin-left: 2em;
+    height: 100px;
+}
+
+#rel p{
+    border : solid black;
+    height: 80px;
+}
+
+#rel span{
+    border: solid black;
+}
+
+#posRelBlock{
+    background-color: yellow;
+    position: relative; 
+    top: 50px; /*laisse un espace de 50px en haut par rapport à sa position initial*/
+    left: 50px; /*laisse un espace de 50px sur la gauche*/
+    z-index: -1; /*passe le bloc en arrière plan*/
+}
+
+#posRemInline{
+    background-color: yellow;
+    position: relative;
+    bottom: 50px; /*laisse un espace de 50px en bas*/
+}
+
+#abs p{
+    border: solid black;
+    height: 80px;
+}
+
+#abs span{
+    border: solid black;
+}
+
+#posAbsBlock{
+    background-color: yellow;
+    position: absolute;
+    top: 0; /*place l'élément tout en haut de la page*/
+    left: 0; /*place l'élément tout à gauche de la page*/
+}
+
+#posAbsInline{
+    background-color: yellow;
+    position: absolute;
+    top: 0; /*place l'élément tout en haut de la page*/
+    right: 0; /*place l'élément tout à droite de la page*/
+}
+
+#abs{
+    position: relative; /*les éléments sont placés dans le block abs et non sur toute la page*/
+}
+
+#fix p{
+    border: solid black;
+    height: 80px;
+}
+
+#fix span{
+    border: solid black;
+}
+
+#posFixBlock{
+    background-color: orange;
+    position: fixed; /*fixe le block à la même position sur la page*/
+    top: 50%; /*fixé au milieu de la page*/
+    left: 40%; /*fixé à 40% sur la gauche de la page*/
+}
+
+#posFixInline{
+    background-color: orange;
+    position: fixed; /*fixe le block à la même position sur la page*/
+    top: 0; /*fixé en haut*/
+    right: 0; /*fixé à droite*/
+}
+#flo img{
+    float: right; /*Colle l'image à droite ou à gauche sans faire de retour à la ligne entre l'image et le texte*/
+}
+
+#flo p{
+    float: left; /*Déplace le texte sous l'image*/
+    width: 75%; /*Le texte occupe que 75% de la page en partant de la gauche*/
+}
+
+#flo{
+    background-color: gray /*le fond change que du titre de la section */
+}
