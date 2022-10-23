@@ -28,6 +28,7 @@ nav, .lien{
 }
 .lien li{
     list-style-type: none;
+    float: left;
 }
 .lien a{
     display: block;
@@ -49,8 +50,19 @@ section{
 .sous_menu{
     display: none;
 }
+.sous_menu li:hover{
+    display: block;
+}
 .lien a:hover{
     background-color: black;
     color: lightgray;
     text-decoration: none;
+}
+#lien .menu-deroulant li{
+    float: none;
+}
+.menu-deroulant > a::after{
+    content: '>';
+    margin-left: 7px;
+    display: inline-block;
 }
