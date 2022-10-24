@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    font-family: sans-serif
+}
+header{
+    background-color: gray;
+    color: antiquewhite;
+    margin: 0;
+    padding: 30px
+}
+header img{
+    position: absolute;
+}
+header h1{
+    text-align: center;
+}
+footer{
+    background-color: gray;
+    color: antiquewhite;
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+    clear: both;
+}
+section{
+    background-color: darkgray;
+    color:white;
+}
+nav{
+    background-color: blanchedalmond;
+    color: darkgray;
+}
+aside{
+    background-color: lightcoral;
+    color: white;
+}
+nav, section, aside{
+    float: left;
+    padding: 1%;
+}
+nav, aside{
+    width: 24%;
+}
+section{
+    width: 46%;
+}
