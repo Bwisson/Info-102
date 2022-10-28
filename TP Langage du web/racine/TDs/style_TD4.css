@@ -1,0 +1,22 @@
+h2 {
+    background-color: #203961;
+    flex: 2;
+}
+div:nth-child(even) {
+    background-color: #e1755e;
+    flex: 1;
+}
+div:nth-child(odd) {
+    background-color: #5d554b;
+}
+#flex {
+    height: 300px;
+    background-color: #a2cdb8;
+    color : white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+}
