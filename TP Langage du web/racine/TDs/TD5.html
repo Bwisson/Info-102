@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>TD5</title>
+<link rel="stylesheet" href="style_TD5.css">
+</head>
+
+
+
+<body>
+  <h1>TD5</h1>
+  <h2>Moyenne</h2>
+  <form>
+  <p>
+	<label for="nombre1">Saisir un nombre : </label>
+	<input type="number" id="nombre1" name="nombre1" />
+  </p>
+  <p>
+    <label for="nombre2">Saisir un nombre : </label>
+    <input type="number" id="nombre2" name="nombre2" />
+  </p>
+  <p>
+	<input id="Moyenne" type="button" value="Moyenne" />
+  </p>
+  <p>
+	Moyenne : <strong id="moyenne"></strong>
+  </p>
+  </form>
+
+  <h2>Drapeau</h2>
+  <p>
+    <label for="vit_vent">Vitesse du vent :</label>
+    <select name="vent" id="vit_vent">
+      <option value="faible">De 0 à 20 km/h</option>
+      <option value="moyen">De 20 à 40 km/h</option>
+      <option value="fort">Supérieur à 40 km/h</option>
+    </select>
+  </p>
+  <p>
+    <label for="etat_mer">Etat de la mer :</label>
+    <select name="etat" id="etat_mer">
+      <option value="calme">Calme</option>
+      <option value="agitée">Agitée</option>
+      <option value="tres_agitee">Très agitée</option>
+    </select>
+  </p>
+  <p>
+    <input id="Calculer" type="button" value="Calculer" />
+  </p>
+  <p>
+    Couleur du drapeau : <strong id="Drapeau"></strong>
+  </p>
+</body>
+
+
+<script src="script_TD5.js"></script>
+</html>
