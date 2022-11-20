@@ -11,6 +11,14 @@ body{
 header{
     background-color: rgb(32, 178, 170);
 }
+section a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+section a:hover{
+    letter-spacing: 0.5em;
+}
 footer, .url{
     display: flex;
     margin: 0;
@@ -19,6 +27,9 @@ footer, .url{
     color: antiquewhite;
     text-decoration: none;
     min-width: 100px;
+}
+.url, .lien a{
+    transition: 0.5s;
 }
 nav, .lien{
     display: flex;
