@@ -1,0 +1,92 @@
+body {
+    letter-spacing: 0.1em;
+    font-family: sans-serif;
+    font-size: 110%;
+    line-height: 1.5em;
+    margin: 2em;
+}
+h1{
+    font-weight: 800;
+}
+h2{
+    font-weight: normal;
+    color: white;
+    background-color: rgb(39, 176, 147);
+    margin: 0.3em;
+    display: inline-block;
+}
+p {
+    text-align: justify;
+}
+figure{
+    margin: 0;
+    text-align: center;
+}
+figcaption{
+    font-size: 90%;
+    font-weight: bold;
+}
+.enSavoirPlus{
+    font-size: 90%;
+    margin-top: 1em;
+}
+.enSavoirPlus > h3{
+    color: rgb(39, 176, 147);
+    margin: 0;
+}
+.enSavoirPlus > p{
+    margin: 0;
+}
+.triangle{
+    background-image: url("./images/triangle.png");
+    background-repeat: no-repeat;
+    text-indent: 1.5em;
+}
+.question{
+    font-size: 90%;
+    border-left: 10px solid rgb(39, 176, 147);
+    margin: 2em 0;
+    padding-left: 1em;
+}
+.question > h3{
+    margin: 0;
+}
+.question > p{
+    margin: 0;
+}
+.question > ul{
+    margin: 0;
+    padding-left: 1em;
+}
+table{
+    font-size: 90%;
+    width: 60%;
+    border-spacing: 0px;
+
+}
+table > caption{
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0px;
+}
+th{
+    padding: 0.5em;
+    background-color: rgb(208, 208, 207);
+}
+td{
+    padding: 0.5em;
+    text-align: center;
+    border: 1px solid rgb(208, 208, 207);
+}
+.url{
+    background-color: rgb(39, 176, 147);
+    padding: 2px;
+}
+.lien{
+    color: white;
+    text-decoration: none;
+}
+.lien:hover{
+    color: rgb(39, 176, 147);
+    background-color: rgb(208, 208, 207);
+}

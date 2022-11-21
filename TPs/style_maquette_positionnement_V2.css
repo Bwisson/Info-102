@@ -1,0 +1,40 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+}
+main{
+    display: flex;
+}
+header{
+    display: flex;
+    background-color: gray;
+    color: antiquewhite;
+}
+header h1{
+    text-align: center;
+}
+footer{
+    background-color: gray;
+    color: antiquewhite;
+    text-align: center;
+}
+section{
+    background-color: darkgray;
+    color:white;
+    flex: 2;
+}
+nav{
+    background-color: blanchedalmond;
+    color: darkgray;
+    flex: 1;
+}
+aside{
+    background-color: lightcoral;
+    color: white;
+    flex: 1;
+}
+@media (max-width: 800px){
+    main{
+    flex-direction: column;
+    }
+} /* affiche les blocs nav, section et aside en colonne si la largeur est inérieur à 800 puxel*/
